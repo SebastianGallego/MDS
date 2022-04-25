@@ -1,0 +1,8 @@
+C:\Users\sebas\OneDrive\Documentos\Visual Studio 2022\MDS\MDS\bin\Debug\MDS.exe.config
+C:\Users\sebas\OneDrive\Documentos\Visual Studio 2022\MDS\MDS\bin\Debug\MDS.exe
+C:\Users\sebas\OneDrive\Documentos\Visual Studio 2022\MDS\MDS\bin\Debug\MDS.pdb
+C:\Users\sebas\OneDrive\Documentos\Visual Studio 2022\MDS\MDS\obj\Debug\MDS.csproj.AssemblyReference.cache
+C:\Users\sebas\OneDrive\Documentos\Visual Studio 2022\MDS\MDS\obj\Debug\MDS.csproj.SuggestedBindingRedirects.cache
+C:\Users\sebas\OneDrive\Documentos\Visual Studio 2022\MDS\MDS\obj\Debug\MDS.csproj.CoreCompileInputs.cache
+C:\Users\sebas\OneDrive\Documentos\Visual Studio 2022\MDS\MDS\obj\Debug\MDS.exe
+C:\Users\sebas\OneDrive\Documentos\Visual Studio 2022\MDS\MDS\obj\Debug\MDS.pdb
