@@ -46,44 +46,44 @@ namespace MDS
 
             leerResultados(lineas, vectResultados);     
 
-            //leerCampeonato(listaCampeonato);    //Hasta acá funciona. 
+            leerCampeonato(listaCampeonato);    //Hasta acá funciona. 
 
-            ////3. recorrer vectResultados y buscar el piloto en la listaCampeonato
-            ////   a.si el piloto está sumar los puntos
-            ////   b.si el piloto no está en la TablaCampeonato agregarlo
+            //3. recorrer vectResultados y buscar el piloto en la listaCampeonato
+            //   a.si el piloto está sumar los puntos
+            //   b.si el piloto no está en la TablaCampeonato agregarlo
 
-            //int contador = listaCampeonato.Count; 
+            int contador = listaCampeonato.Count; 
 
-            //for (int i=0; i<vectResultados.Length; i++)
-            //{
-            //    for(int j=0; j<contador; j++)
-            //    { 
-            //    if(vectResultados[i].piloto == listaCampeonato[j].piloto)
-            //        {
-            //            int puntosganados= listaCampeonato[j].puntos  + vectResultados[i].puntos;
+            for (int i=0; i<vectResultados.Length; i++)
+            {
+                for(int j=0; j<contador; j++)
+                { 
+                if(vectResultados[i].piloto == listaCampeonato[j].piloto)
+                    {
+                        int puntosganados= listaCampeonato[j].puntos  + vectResultados[i].puntos;
 
-            //            int posicion = listaCampeonato[j].posicion;
+                        int posicion = listaCampeonato[j].posicion;
 
-            //            string piloto = listaCampeonato[j].piloto;
+                        string piloto = listaCampeonato[j].piloto;
 
-            //            string categoria = listaCampeonato[j].categoria;
+                        string categoria = listaCampeonato[j].categoria;
 
-            //            listaCampeonato.Add(new Resultados(categoria,posicion,piloto,puntosganados));
-            //            listaCampeonato.RemoveAt(j);    
-            //        }//cierra el if
+                        listaCampeonato.Add(new Resultados(categoria,posicion,piloto,puntosganados));
+                        listaCampeonato.RemoveAt(j);    
+                    }//cierra el if
                     
 
-            //    }//cierra el for j
+                }//cierra el for j
 
-            //}//cierra el for i
+            }//cierra el for i
 
-            //Console.WriteLine("-------------------------------------------------------------------------");
+            Console.WriteLine("-------------------------------------------------------------------------");
 
 
-            //foreach (var linea in listaCampeonato)
-            //{
-            //    Console.WriteLine(linea.categoria + " - " + linea.piloto + " - " + linea.puntos);
-            //}  // cierra el foreach  -
+            foreach (var linea in listaCampeonato)
+            {
+                Console.WriteLine(linea.categoria + " - " + linea.piloto + " - " + linea.puntos);
+            }  // cierra el foreach  -
 
         }
 
@@ -133,9 +133,6 @@ namespace MDS
                 }    //cierro for
                 i++;
             }  // cierra el foreach  -- En el vector resultados tengo las tablas de puntos del evento    
-
-            Console.WriteLine(vectResultados.Length);
-
 
             foreach (var linea in vectResultados)
             {
